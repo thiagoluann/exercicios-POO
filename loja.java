@@ -46,15 +46,15 @@ public class loja {
                 preco = scanner.nextDouble();
                 
                 if(preco > 100){
-                    novoValor = preco - preco *(40/100);
+                    novoValor = preco - preco *(40.0/100.0);
                     System.out.println("\nSuas compras custaram "+preco+" reais, com o desconto ficou "+novoValor+" reais.");
                 }
                 else if(preco >= 50 || preco <= 100){
-                    novoValor = preco - preco * (20/100);
+                    novoValor = preco - preco * (20.0/100.0);
                     System.out.println("\nSuas compras custaram "+preco+" reais, com o desconto ficou "+novoValor+" reais.");
                 }
                 else{
-                    novoValor = preco - preco*(10/100);
+                    novoValor = preco - preco*(10.0/100.0);
                     System.out.println("\nSuas compras custaram "+preco+" reais, com o desconto ficou "+novoValor+" reais.");
                 }
                 break;
@@ -65,7 +65,7 @@ public class loja {
                 preco = scanner.nextDouble();
 
                 if(preco > 500){
-                    novoValor = preco - preco *(10/100);
+                    novoValor = preco - preco *(10.0/100.0);
                     System.out.println("\nSuas compras custaram "+preco+" reais, com o desconto ficou "+novoValor+" reais.");
                 }
                 else{
