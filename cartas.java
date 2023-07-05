@@ -5,9 +5,7 @@ espadas). O programa deve imprimir o nome da carta por extenso. */
 import java.util.Scanner;
 
 public class cartas {
-    /**
-     * @param args
-     */
+    
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         String carta = null, naipe = null;
