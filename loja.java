@@ -60,9 +60,9 @@ public class loja {
                 break;
 
                 case 222:
-                System.out.println("\nBEM-VINDO AO SETOR DE ELETRONICOS!");
-                System.out.print("Informe o valor dE SUAS compras: ");
-                preco = scanner.nextDouble();
+                    System.out.println("\nBEM-VINDO AO SETOR DE ELETRONICOS!");
+                    System.out.print("Informe o valor dE SUAS compras: ");
+                    preco = scanner.nextDouble();
 
                 if(preco > 500){
                     novoValor = preco - preco *(10.0/100.0);
