@@ -11,12 +11,12 @@ public class populacao {
         Scanner scanner = new Scanner(System.in);
         
 
-        double cidadeA = 7000.0, cidadeB = 20000.0, crescimentoA = 0.01, crescimentoB = 0.035;
+        double cidadeA = 7000.0, cidadeB = 20000.0, crescimentoA = 0.0035, crescimentoB = 0.001;
         int qntAnos = 0;
         
         
 
-        System.out.println("A cidade 'A' tem 7000 habitantes\nA cidade 'B' tem 20000 habitantes " );
+        System.out.println("A cidade 'A' tem 7000 habitantes e a 'B' tem 20000 habitantes" );
         while(cidadeA <= cidadeB){
             cidadeA = crescimentoA * cidadeA + cidadeA;
             cidadeB = crescimentoB * cidadeB + cidadeB;
