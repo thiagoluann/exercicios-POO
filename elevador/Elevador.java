@@ -13,45 +13,45 @@ public class Elevador {
 
     void entra(){
         if (qtdPessoas < capacidadeElevador ){
-            System.out.println("Alguem entrou no elevador...");
+            System.out.println("\nAlguem entrou no elevador...");
             qtdPessoas++;
-            System.out.println(qtdPessoas);
+            System.out.println("Agora tem "+qtdPessoas+" pessoas no elevador.\n");
         }
         else{
-            System.out.println("Elevador lotado!");
+            System.out.println("\nElevador lotado!\n");
         }
     }
 
     void sai(){
         if(qtdPessoas != 0){
-            System.out.println("Alguém saiu do elevador.");
+            System.out.println("\nAlguém saiu do elevador.");
             qtdPessoas --;
-            System.out.println(qtdPessoas);
+            System.out.println("Agora tem "+qtdPessoas+" pessoas no elevador.\n");
         }
         else{
-            System.out.println("Ninguém está no elevador");
+            System.out.println("\nNinguém está no elevador\n");
         }
     }
 
     void sobe(){
         if(andarAtual == qtdAndares){
-            System.out.println("Nao eh mais possivel subir, pois ja esta no ultimo andar.");
+            System.out.println("\nNao eh mais possivel subir, pois ja esta no ultimo andar.\n");
         } 
         else{
             System.out.print("\nSubindo... ");
             andarAtual ++;
-            System.out.println(andarAtual);
+            System.out.println("Andar "+andarAtual+"\n");
         }       
     }
 
     void desce(){
         if(andarAtual == 0){
-            System.out.println("Nao eh mais possivel descer, pois ja esta no terreo.");
+            System.out.println("\nNao eh mais possivel descer, pois ja esta no terreo.\n");
         }
         else{
-            System.out.println("\nDescendo...");
+            System.out.print("\nDescendo... ");
             andarAtual--;
-            System.out.println(andarAtual);
+            System.out.println("Andar "+andarAtual+"\n");
         }
 
     }

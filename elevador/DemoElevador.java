@@ -53,18 +53,14 @@ public class DemoElevador {
                 break;
 
                 case 0:
-                    System.out.println("encerrando o programa...");
+                    System.out.println("\nencerrando o programa...\n");
+                    scanner.close(); 
                     return;
 
                 default:
-                    System.out.println("Opcao invalida.");
+                    System.out.println("\nOpcao invalida.\n");
                 break;
             }
-        }
-
-        
-        
-        
+        }  
     }
-
 }
